@@ -7,10 +7,15 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
   },
   "dependencies": {
+    "@prisma/client": "^5.11.0",
     "nuxt": "^3.10.3",
+    "prisma": "^5.11.0",
+    "prisma-eventify": "^0.0.3-alpha",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   }
